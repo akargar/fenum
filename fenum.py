@@ -48,8 +48,6 @@ def main ():
     
         
 def login (control_socket, rhost, port=21, user="anonymous", password=""):
-    
-    
     try: 
         control_socket.connect((rhost , port))
         data = control_socket.recv(1024).decode()
@@ -66,6 +64,7 @@ def login (control_socket, rhost, port=21, user="anonymous", password=""):
         print ("[+] Logged in ... ")
     else : 
         print ("[-] Wrong credentials! ")
+        print (data)
         sys.exit(1)
         
     

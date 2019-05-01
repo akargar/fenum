@@ -1,4 +1,4 @@
-Fenum - FTP Enumerator python script with search (simple and regex) capability 
+Fenum - FTP file Enumerator python script with search (simple and regex) capability 
 
 Usage: fenum.py [-h] [-U USERNAME] [-P PASSWORD] -r RHOST [-p PORT] -l LHOST
                 [-t PATH] [-s SEARCH] [-e REGEX]
